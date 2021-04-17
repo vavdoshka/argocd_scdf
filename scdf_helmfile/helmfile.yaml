@@ -1,7 +1,7 @@
 
 repositories:
 - name: bitnami
-  url: https://github.com/bitnami/charts
+  url: https://charts.bitnami.com/bitnami
 
 releases:
 - name: scdf-helmfile
