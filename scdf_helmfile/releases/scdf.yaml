@@ -1,0 +1,11 @@
+---
+bases:
+- "common.yaml"
+---
+releases:
+- name: scdf
+  namespace: scdf
+  chart: bitnami/spring-cloud-dataflow
+  values:
+    rabbitmq:
+      enabled: {{ .Values.scdf.rabbitmq.enabled }}
