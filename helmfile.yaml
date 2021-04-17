@@ -1,0 +1,9 @@
+
+repositories:
+- name: bitnami
+  url: https://github.com/bitnami/charts
+
+releases:
+- name: scdf-helmfile
+  namespace: scdf-helmfile
+  chart: bitnami/spring-cloud-dataflow
